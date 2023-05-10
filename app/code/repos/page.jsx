@@ -4,7 +4,7 @@ import Link from "next/link";
 
 async function fetchRepos() {
   const response = await fetch(
-    "https://api.github.com/users/andelija993/repos",
+    "https://api.github.com/users/bradtraversy/repos",
     {
       next: {
         revalidate: 60,
